@@ -1,9 +1,6 @@
 locals {
   # Resource Groups
-  # rg-<project>-<env>-<location>-<number>
-  resource_group = substr(join("-", compact(["rg", var.project, var.environment, var.location, var.instance_number])), 0, 90)
-
-  # item = ["hub", "operational] ->  rg-<project>-<ITEM>=<env>-<location>-<number>
+  resource_group  = substr(join("-", compact(["rg", var.project, var.environment, var.location, var.instance_number])), 0, 90)
   resource_groups = { for item in var.resource_groups : item => substr(join("-", compact(["rg", var.project, item, var.environment, var.location, var.instance_number])), 0, 90) }
 
   # Virtual Networks
