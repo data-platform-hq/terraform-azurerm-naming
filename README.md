@@ -1,5 +1,5 @@
 # Azure Naming Terraform module
-Terraform module for of [standardized](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming) naming for Azure resources
+Terraform module for creation of [standardized](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming) naming for Azure resources.
 
 
 ## Usage
