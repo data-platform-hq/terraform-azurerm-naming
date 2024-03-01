@@ -64,8 +64,8 @@ locals {
   storage_accounts = { for item in var.storage_accounts : item => substr(join("", compact(["st", var.project, item, substr(var.environment, 0, 1), local.shorthanded_region_names[(var.location)], var.instance_number])), 0, 24) }
 
   # Databricks Workspace
-  databricks_workspace  = substr(join("-", compact(["dbw", var.project, var.environment, var.location, var.instance_number])), 0, 30)
-  databricks_workspaces = { for item in var.databricks_workspaces : item => substr(join("-", compact(["dbw", var.project, item, var.environment, var.location, var.instance_number])), 0, 30) }
+  databricks_workspace  = substr(join("-", compact(["dbw", var.project, var.environment, var.location, var.instance_number])), 0, 63)
+  databricks_workspaces = { for item in var.databricks_workspaces : item => substr(join("-", compact(["dbw", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
 
   # MSSQL Servers
   mssql_server  = substr(join("-", compact(["sql", var.project, var.environment, var.location, var.instance_number])), 0, 63)
