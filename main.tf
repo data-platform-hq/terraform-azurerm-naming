@@ -84,7 +84,7 @@ locals {
   data_factories = { for item in var.data_factories : item => substr(join("-", compact(["adf", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
 
   # Purview
-  purview = substr(join("-", compact(["pvw", var.project, var.environment, var.location, var.instance_number])), 0, 63)
+  purview  = substr(join("-", compact(["pvw", var.project, var.environment, var.location, var.instance_number])), 0, 63)
   purviews = { for item in var.purviews : item => substr(join("-", compact(["pvw", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
 }
 
