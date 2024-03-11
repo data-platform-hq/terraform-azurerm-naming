@@ -228,3 +228,14 @@ output "data_factories" {
   description = "Built name of multiple Data Factories with unique particle"
   value       = local.data_factories
 }
+
+# Purview
+output "purview" {
+  description = "Built name of single Purview"
+  value       = local.purview
+}
+
+output "purviews" {
+  description = "Built name of multiple Purviews with unique particle"
+  value       = local.purviews
+}

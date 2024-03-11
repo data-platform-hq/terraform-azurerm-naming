@@ -144,3 +144,9 @@ variable "data_factories" {
   description = "Set of unique strings to create Data Factories full names"
   default     = []
 }
+
+variable "purviews" {
+  type        = set(string)
+  description = "Set of unique strings to create Purviews full names"
+  default     = []
+}

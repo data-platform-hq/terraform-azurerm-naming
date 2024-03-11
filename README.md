@@ -48,6 +48,7 @@ No resources.
 | <a name="input_private_endpoints"></a> [private\_endpoints](#input\_private\_endpoints) | Set of unique strings to create Private Endpoints full names | `set(string)` | `[]` | no |
 | <a name="input_project"></a> [project](#input\_project) | Name of application/workload/project | `string` | n/a | yes |
 | <a name="input_public_ips"></a> [public\_ips](#input\_public\_ips) | Set of unique strings to create Public IPs full names | `set(string)` | `[]` | no |
+| <a name="input_purviews"></a> [purviews](#input\_purviews) | Set of unique strings to create Purviews full names | `set(string)` | `[]` | no |
 | <a name="input_resource_groups"></a> [resource\_groups](#input\_resource\_groups) | Set of unique strings to create Resource Group full names | `set(string)` | `[]` | no |
 | <a name="input_route_tables"></a> [route\_tables](#input\_route\_tables) | Set of unique strings to create Route Tables full names | `set(string)` | `[]` | no |
 | <a name="input_storage_accounts"></a> [storage\_accounts](#input\_storage\_accounts) | Set of unique strings to create Storage Accounts full names | `set(string)` | `[]` | no |
@@ -90,6 +91,8 @@ No resources.
 | <a name="output_private_endpoints"></a> [private\_endpoints](#output\_private\_endpoints) | Built name of multiple Private Endpoints with unique particle |
 | <a name="output_public_ip"></a> [public\_ip](#output\_public\_ip) | Built name of single Public IP |
 | <a name="output_public_ips"></a> [public\_ips](#output\_public\_ips) | Built name of multiple Public IPs with unique particle |
+| <a name="output_purview"></a> [purview](#output\_purview) | Built name of single Purview |
+| <a name="output_purviews"></a> [purviews](#output\_purviews) | Built name of multiple Purviews with unique particle |
 | <a name="output_resource_group"></a> [resource\_group](#output\_resource\_group) | Built name of single Resource Group |
 | <a name="output_resource_groups"></a> [resource\_groups](#output\_resource\_groups) | Built name of multiple Resource Groups with unique particle |
 | <a name="output_route_table"></a> [route\_table](#output\_route\_table) | Built name of single Route Table |
