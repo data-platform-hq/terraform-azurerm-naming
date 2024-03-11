@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.1...v1.0.2) (2024-03-11)
+
+
+### Bug Fixes
+
+* added purview name ([05d472e](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/05d472ee5e51d10f4ae89e070a04d37dae64805f))
+* added purview name (fmt) ([b5b4c97](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/b5b4c97860d904714baf146e32f6b251bd42490b))
+
 ## [1.0.1](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.0...v1.0.1) (2024-03-01)
 
 
