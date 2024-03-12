@@ -239,3 +239,25 @@ output "purviews" {
   description = "Built name of multiple Purviews with unique particle"
   value       = local.purviews
 }
+
+# Dashboard
+output "dashboard" {
+  description = "Built name of single Dashboard"
+  value       = local.dashboard
+}
+
+output "dashboards" {
+  description = "Built name of multiple Dashboards with unique particle"
+  value       = local.dashboards
+}
+
+# Workbook
+output "workbook" {
+  description = "Built name of single Workbook"
+  value       = local.workbook
+}
+
+output "workbooks" {
+  description = "Built name of multiple Workbooks with unique particle"
+  value       = local.workbooks
+}
