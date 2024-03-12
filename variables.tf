@@ -150,3 +150,15 @@ variable "purviews" {
   description = "Set of unique strings to create Purviews full names"
   default     = []
 }
+
+variable "dashboards" {
+  type        = set(string)
+  description = "Set of unique strings to create Dashboards full names"
+  default     = []
+}
+
+variable "workbooks" {
+  type        = set(string)
+  description = "Set of unique strings to create Workbooks full names"
+  default     = []
+}

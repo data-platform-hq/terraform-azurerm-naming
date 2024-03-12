@@ -30,6 +30,7 @@ No resources.
 |------|-------------|------|---------|:--------:|
 | <a name="input_automation_accounts"></a> [automation\_accounts](#input\_automation\_accounts) | Set of unique strings to create Automation Accounts full names | `set(string)` | `[]` | no |
 | <a name="input_container_instances"></a> [container\_instances](#input\_container\_instances) | Set of unique strings to create Container Instances full names | `set(string)` | `[]` | no |
+| <a name="input_dashboards"></a> [dashboards](#input\_dashboards) | Set of unique strings to create Dashboards full names | `set(string)` | `[]` | no |
 | <a name="input_data_factories"></a> [data\_factories](#input\_data\_factories) | Set of unique strings to create Data Factories full names | `set(string)` | `[]` | no |
 | <a name="input_databricks_workspaces"></a> [databricks\_workspaces](#input\_databricks\_workspaces) | Set of unique strings to create Databricks Workspaces full names | `set(string)` | `[]` | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | Environment/Subscription name | `string` | n/a | yes |
@@ -54,6 +55,7 @@ No resources.
 | <a name="input_storage_accounts"></a> [storage\_accounts](#input\_storage\_accounts) | Set of unique strings to create Storage Accounts full names | `set(string)` | `[]` | no |
 | <a name="input_subnets"></a> [subnets](#input\_subnets) | Set of unique strings to create Subnets full names | `set(string)` | `[]` | no |
 | <a name="input_virtual_networks"></a> [virtual\_networks](#input\_virtual\_networks) | Set of unique strings to create Virtual Network full names | `set(string)` | `[]` | no |
+| <a name="input_workbooks"></a> [workbooks](#input\_workbooks) | Set of unique strings to create Workbooks full names | `set(string)` | `[]` | no |
 
 ## Outputs
 
@@ -63,6 +65,8 @@ No resources.
 | <a name="output_automation_accounts"></a> [automation\_accounts](#output\_automation\_accounts) | Built name of multiple Automation Accounts with unique particle |
 | <a name="output_container_instance"></a> [container\_instance](#output\_container\_instance) | Built name of single Container Instance |
 | <a name="output_container_instances"></a> [container\_instances](#output\_container\_instances) | Built name of multiple Container Instances with unique particle |
+| <a name="output_dashboard"></a> [dashboard](#output\_dashboard) | Built name of single Dashboard |
+| <a name="output_dashboards"></a> [dashboards](#output\_dashboards) | Built name of multiple Dashboards with unique particle |
 | <a name="output_data_factories"></a> [data\_factories](#output\_data\_factories) | Built name of multiple Data Factories with unique particle |
 | <a name="output_data_factory"></a> [data\_factory](#output\_data\_factory) | Built name of single Data Factory |
 | <a name="output_databricks_workspace"></a> [databricks\_workspace](#output\_databricks\_workspace) | Built name of single Databricks Workspace |
@@ -103,6 +107,8 @@ No resources.
 | <a name="output_subnets"></a> [subnets](#output\_subnets) | Built name of multiple Subnets with unique particle |
 | <a name="output_virtual_network"></a> [virtual\_network](#output\_virtual\_network) | Built name of single Virtual Network |
 | <a name="output_virtual_networks"></a> [virtual\_networks](#output\_virtual\_networks) | Built name of multiple Virtual Networks with unique particle |
+| <a name="output_workbook"></a> [workbook](#output\_workbook) | Built name of single Workbook |
+| <a name="output_workbooks"></a> [workbooks](#output\_workbooks) | Built name of multiple Workbooks with unique particle |
 <!-- END_TF_DOCS -->
 
 ## License
