@@ -1,3 +1,13 @@
+## [1.0.3](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.2...v1.0.3) (2024-03-12)
+
+
+### Bug Fixes
+
+* added security KICS scan action ([0eda602](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/0eda602a3ec42876f57650e995039c04742e8688))
+* added workbooks and dashboards names ([d442eff](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/d442eff41c7d9746beeae82704da36e17ef42611))
+* dashboards and workbooks outputs ([2670d3e](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/2670d3ebd9dd873d8a0699db9a2a2e09a5c1ce14))
+* dashboards and workbooks vars ([5837840](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/5837840d30ffdd7e34c58b8958e975f04bb74566))
+
 ## [1.0.2](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.1...v1.0.2) (2024-03-11)
 
 
