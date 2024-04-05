@@ -86,11 +86,11 @@ locals {
   # Purview
   purview  = substr(join("-", compact(["pvw", var.project, var.environment, var.location, var.instance_number])), 0, 63)
   purviews = { for item in var.purviews : item => substr(join("-", compact(["pvw", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
-  
+
   # Dashboard
   dashboard  = substr(join("-", compact(["dsb", var.project, var.environment, var.location, var.instance_number])), 0, 63)
   dashboards = { for item in var.dashboards : item => substr(join("-", compact(["dsb", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
-  
+
   # Dashboard
   workbook  = substr(join("-", compact(["wbk", var.project, var.environment, var.location, var.instance_number])), 0, 63)
   workbooks = { for item in var.workbooks : item => substr(join("-", compact(["wbk", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
