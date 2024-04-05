@@ -94,6 +94,10 @@ locals {
   # Dashboard
   workbook  = substr(join("-", compact(["wbk", var.project, var.environment, var.location, var.instance_number])), 0, 63)
   workbooks = { for item in var.workbooks : item => substr(join("-", compact(["wbk", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
+
+  # User Assigned Identity
+  user_assigned_identity   = substr(join("-", compact(["id", var.project, var.environment, var.location, var.instance_number])), 0, 63)
+  user_assigned_identities = { for item in var.user_assigned_identities : item => substr(join("-", compact(["id", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
 }
 
 locals {

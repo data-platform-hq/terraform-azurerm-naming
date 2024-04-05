@@ -261,3 +261,14 @@ output "workbooks" {
   description = "Built name of multiple Workbooks with unique particle"
   value       = local.workbooks
 }
+
+# User Assigned Identity
+output "user_assigned_identity" {
+  description = "Built name of single User Assigned Identity"
+  value       = local.user_assigned_identity
+}
+
+output "user_assigned_identities" {
+  description = "Built name of multiple User Assigned Identities with unique particle"
+  value       = local.user_assigned_identities
+}
