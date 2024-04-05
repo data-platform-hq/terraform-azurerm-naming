@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.3...v1.0.4) (2024-04-05)
+
+
+### Bug Fixes
+
+* added user assigned identity ([6b58fad](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/6b58fad4035a33e7b5dd09daef81dec52070a59f))
+
 ## [1.0.3](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.2...v1.0.3) (2024-03-12)
 
 
