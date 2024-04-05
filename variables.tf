@@ -162,3 +162,9 @@ variable "workbooks" {
   description = "Set of unique strings to create Workbooks full names"
   default     = []
 }
+
+variable "user_assigned_identities" {
+  type        = set(string)
+  description = "Set of unique strings to create User Assigned Identities full names"
+  default     = []
+}
