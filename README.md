@@ -54,6 +54,7 @@ No resources.
 | <a name="input_route_tables"></a> [route\_tables](#input\_route\_tables) | Set of unique strings to create Route Tables full names | `set(string)` | `[]` | no |
 | <a name="input_storage_accounts"></a> [storage\_accounts](#input\_storage\_accounts) | Set of unique strings to create Storage Accounts full names | `set(string)` | `[]` | no |
 | <a name="input_subnets"></a> [subnets](#input\_subnets) | Set of unique strings to create Subnets full names | `set(string)` | `[]` | no |
+| <a name="input_user_assigned_identities"></a> [user\_assigned\_identities](#input\_user\_assigned\_identities) | Set of unique strings to create User Assigned Identities full names | `set(string)` | `[]` | no |
 | <a name="input_virtual_networks"></a> [virtual\_networks](#input\_virtual\_networks) | Set of unique strings to create Virtual Network full names | `set(string)` | `[]` | no |
 | <a name="input_workbooks"></a> [workbooks](#input\_workbooks) | Set of unique strings to create Workbooks full names | `set(string)` | `[]` | no |
 
@@ -105,6 +106,8 @@ No resources.
 | <a name="output_storage_accounts"></a> [storage\_accounts](#output\_storage\_accounts) | Built name of multiple Storage Accounts with unique particle |
 | <a name="output_subnet"></a> [subnet](#output\_subnet) | Built name of single Subnet |
 | <a name="output_subnets"></a> [subnets](#output\_subnets) | Built name of multiple Subnets with unique particle |
+| <a name="output_user_assigned_identities"></a> [user\_assigned\_identities](#output\_user\_assigned\_identities) | Built name of multiple User Assigned Identities with unique particle |
+| <a name="output_user_assigned_identity"></a> [user\_assigned\_identity](#output\_user\_assigned\_identity) | Built name of single User Assigned Identity |
 | <a name="output_virtual_network"></a> [virtual\_network](#output\_virtual\_network) | Built name of single Virtual Network |
 | <a name="output_virtual_networks"></a> [virtual\_networks](#output\_virtual\_networks) | Built name of multiple Virtual Networks with unique particle |
 | <a name="output_workbook"></a> [workbook](#output\_workbook) | Built name of single Workbook |
