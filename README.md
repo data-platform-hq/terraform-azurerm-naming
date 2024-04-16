@@ -28,6 +28,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_application_security_groups"></a> [application\_security\_groups](#input\_application\_security\_groups) | Set of unique strings to create Application Security Groups full names | `set(string)` | `[]` | no |
 | <a name="input_automation_accounts"></a> [automation\_accounts](#input\_automation\_accounts) | Set of unique strings to create Automation Accounts full names | `set(string)` | `[]` | no |
 | <a name="input_container_instances"></a> [container\_instances](#input\_container\_instances) | Set of unique strings to create Container Instances full names | `set(string)` | `[]` | no |
 | <a name="input_dashboards"></a> [dashboards](#input\_dashboards) | Set of unique strings to create Dashboards full names | `set(string)` | `[]` | no |
@@ -62,6 +63,8 @@ No resources.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_application_security_group"></a> [application\_security\_group](#output\_application\_security\_group) | Built name of single Application Security Group |
+| <a name="output_application_security_groups"></a> [application\_security\_groups](#output\_application\_security\_groups) | Built name of multiple Application Security Groups with unique particle |
 | <a name="output_automation_account"></a> [automation\_account](#output\_automation\_account) | Built name of single Automation Account |
 | <a name="output_automation_accounts"></a> [automation\_accounts](#output\_automation\_accounts) | Built name of multiple Automation Accounts with unique particle |
 | <a name="output_container_instance"></a> [container\_instance](#output\_container\_instance) | Built name of single Container Instance |

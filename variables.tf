@@ -168,3 +168,9 @@ variable "user_assigned_identities" {
   description = "Set of unique strings to create User Assigned Identities full names"
   default     = []
 }
+
+variable "application_security_groups" {
+  type        = set(string)
+  description = "Set of unique strings to create Application Security Groups full names"
+  default     = []
+}

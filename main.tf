@@ -15,6 +15,10 @@ locals {
   network_security_group  = substr(join("-", compact(["nsg", var.project, var.environment, var.location, var.instance_number])), 0, 80)
   network_security_groups = { for item in var.network_security_groups : item => substr(join("-", compact(["nsg", var.project, item, var.environment, var.location, var.instance_number])), 0, 80) }
 
+  # Application Security Groups 
+  application_security_group  = substr(join("-", compact(["asg", var.project, var.environment, var.location, var.instance_number])), 0, 80)
+  application_security_groups = { for item in var.application_security_groups : item => substr(join("-", compact(["asg", var.project, item, var.environment, var.location, var.instance_number])), 0, 80) }
+
   # Route Tables
   route_table  = substr(join("-", compact(["rt", var.project, var.environment, var.location, var.instance_number])), 0, 80)
   route_tables = { for item in var.route_tables : item => substr(join("-", compact(["rt", var.project, item, var.environment, var.location, var.instance_number])), 0, 80) }
