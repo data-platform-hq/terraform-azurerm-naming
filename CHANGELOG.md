@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.4...v1.0.5) (2024-04-18)
+
+
+### Bug Fixes
+
+* new names ([d8c2cde](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/d8c2cde3aa634054326ae0ca284afbe0c2d06392))
+
 ## [1.0.4](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.3...v1.0.4) (2024-04-05)
 
 
