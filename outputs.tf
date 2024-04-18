@@ -42,6 +42,17 @@ output "network_security_groups" {
   value       = local.network_security_groups
 }
 
+# Application Security Groups
+output "application_security_group" {
+  description = "Built name of single Application Security Group"
+  value       = local.application_security_group
+}
+
+output "application_security_groups" {
+  description = "Built name of multiple Application Security Groups with unique particle"
+  value       = local.application_security_groups
+}
+
 # Route Tables
 output "route_table" {
   description = "Built name of single Route Table"
