@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.5...v1.0.6) (2024-06-27)
+
+
+### Bug Fixes
+
+* support sa lower names ([cf92b94](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/cf92b94c3015fa97eff058c2daf3a3274ebbdf04))
+
 ## [1.0.5](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.4...v1.0.5) (2024-04-18)
 
 
