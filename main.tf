@@ -64,8 +64,8 @@ locals {
   key_vaults = { for item in var.key_vaults : item => substr(join("-", compact(["kv", var.project, item, substr(var.environment, 0, 1), local.shorthanded_region_names[(var.location)], var.instance_number])), 0, 24) }
 
   # Storage Accounts
-  storage_account  = substr(join("", compact(["st", var.project, substr(var.environment, 0, 1), local.shorthanded_region_names[(var.location)], var.instance_number])), 0, 24)
-  storage_accounts = { for item in var.storage_accounts : item => substr(join("", compact(["st", var.project, item, substr(var.environment, 0, 1), local.shorthanded_region_names[(var.location)], var.instance_number])), 0, 24) }
+  storage_account  = lower(substr(join("", compact(["st", var.project, substr(var.environment, 0, 1), local.shorthanded_region_names[(var.location)], var.instance_number])), 0, 24))
+  storage_accounts = { for item in var.storage_accounts : item => lower(substr(join("", compact(["st", var.project, item, substr(var.environment, 0, 1), local.shorthanded_region_names[(var.location)], var.instance_number])), 0, 24)) }
 
   # Databricks Workspace
   databricks_workspace  = substr(join("-", compact(["dbw", var.project, var.environment, var.location, var.instance_number])), 0, 63)
