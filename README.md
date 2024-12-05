@@ -34,6 +34,8 @@ No resources.
 | <a name="input_dashboards"></a> [dashboards](#input\_dashboards) | Set of unique strings to create Dashboards full names | `set(string)` | `[]` | no |
 | <a name="input_data_factories"></a> [data\_factories](#input\_data\_factories) | Set of unique strings to create Data Factories full names | `set(string)` | `[]` | no |
 | <a name="input_databricks_workspaces"></a> [databricks\_workspaces](#input\_databricks\_workspaces) | Set of unique strings to create Databricks Workspaces full names | `set(string)` | `[]` | no |
+| <a name="input_dev_center_projects"></a> [dev\_center\_projects](#input\_dev\_center\_projects) | Set of unique strings to create Dev Center Project full names | `set(string)` | `[]` | no |
+| <a name="input_dev_centers"></a> [dev\_centers](#input\_dev\_centers) | Set of unique strings to create Dev Center full names | `set(string)` | `[]` | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | Environment/Subscription name | `string` | n/a | yes |
 | <a name="input_instance_number"></a> [instance\_number](#input\_instance\_number) | Instance number of deployment | `string` | `"1"` | no |
 | <a name="input_internal_load_balancers"></a> [internal\_load\_balancers](#input\_internal\_load\_balancers) | Set of unique strings to create Internal Load Balancers full names | `set(string)` | `[]` | no |
@@ -42,6 +44,7 @@ No resources.
 | <a name="input_linux_virtual_machines"></a> [linux\_virtual\_machines](#input\_linux\_virtual\_machines) | Set of unique strings to create Linux Virtual Machines full names | `set(string)` | `[]` | no |
 | <a name="input_location"></a> [location](#input\_location) | Azure Region | `string` | n/a | yes |
 | <a name="input_log_analytics_workspaces"></a> [log\_analytics\_workspaces](#input\_log\_analytics\_workspaces) | Set of unique strings to create Log Analytics Workspaces full names | `set(string)` | `[]` | no |
+| <a name="input_managed_devops_pools"></a> [managed\_devops\_pools](#input\_managed\_devops\_pools) | Set of unique strings to create Managed DevOps Pool full names | `set(string)` | `[]` | no |
 | <a name="input_mssql_databases"></a> [mssql\_databases](#input\_mssql\_databases) | Set of unique strings to create MSSQL Databases full names | `set(string)` | `[]` | no |
 | <a name="input_mssql_servers"></a> [mssql\_servers](#input\_mssql\_servers) | Set of unique strings to create MSSQL Servers full names | `set(string)` | `[]` | no |
 | <a name="input_nat_gateways"></a> [nat\_gateways](#input\_nat\_gateways) | Set of unique strings to create Nat Gateways full names | `set(string)` | `[]` | no |
@@ -75,6 +78,10 @@ No resources.
 | <a name="output_data_factory"></a> [data\_factory](#output\_data\_factory) | Built name of single Data Factory |
 | <a name="output_databricks_workspace"></a> [databricks\_workspace](#output\_databricks\_workspace) | Built name of single Databricks Workspace |
 | <a name="output_databricks_workspaces"></a> [databricks\_workspaces](#output\_databricks\_workspaces) | Built name of multiple Databricks Workspaces with unique particle |
+| <a name="output_dev_center"></a> [dev\_center](#output\_dev\_center) | Built name of single Dev Center |
+| <a name="output_dev_center_project"></a> [dev\_center\_project](#output\_dev\_center\_project) | Built name of single Dev Center Project |
+| <a name="output_dev_center_projects"></a> [dev\_center\_projects](#output\_dev\_center\_projects) | Built name of multiple Dev Center Projects with unique particle |
+| <a name="output_dev_centers"></a> [dev\_centers](#output\_dev\_centers) | Built name of multiple Dev Centers with unique particle |
 | <a name="output_internal_load_balancer"></a> [internal\_load\_balancer](#output\_internal\_load\_balancer) | Built name of single Internal Load Balancer |
 | <a name="output_internal_load_balancers"></a> [internal\_load\_balancers](#output\_internal\_load\_balancers) | Built name of multiple Internal Load Balancers with unique particle |
 | <a name="output_key_vault"></a> [key\_vault](#output\_key\_vault) | Built name of single  Key Vault |
@@ -85,6 +92,8 @@ No resources.
 | <a name="output_linux_virtual_machines"></a> [linux\_virtual\_machines](#output\_linux\_virtual\_machines) | Built name of multiple Linux Virtual Machines with unique particle |
 | <a name="output_log_analytics_workspace"></a> [log\_analytics\_workspace](#output\_log\_analytics\_workspace) | Built name of single Log Analytics Workspace |
 | <a name="output_log_analytics_workspaces"></a> [log\_analytics\_workspaces](#output\_log\_analytics\_workspaces) | Built name of multiple Log Analytics Workspaces with unique particle |
+| <a name="output_managed_devops_pool"></a> [managed\_devops\_pool](#output\_managed\_devops\_pool) | Built name of single Managed DevOps pool |
+| <a name="output_managed_devops_pools"></a> [managed\_devops\_pools](#output\_managed\_devops\_pools) | Built name of multiple Managed DevOps Pools with unique particle |
 | <a name="output_mssql_database"></a> [mssql\_database](#output\_mssql\_database) | Built name of single MSSQL Database |
 | <a name="output_mssql_databases"></a> [mssql\_databases](#output\_mssql\_databases) | Built name of multiple MSSQL Databases with unique particle |
 | <a name="output_mssql_server"></a> [mssql\_server](#output\_mssql\_server) | Built name of single MSSQL Server |
