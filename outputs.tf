@@ -283,3 +283,36 @@ output "user_assigned_identities" {
   description = "Built name of multiple User Assigned Identities with unique particle"
   value       = local.user_assigned_identities
 }
+
+# Dev Center
+output "dev_center" {
+  description = "Built name of single Dev Center"
+  value       = local.dev_center
+}
+
+output "dev_centers" {
+  description = "Built name of multiple Dev Centers with unique particle"
+  value       = local.dev_centers
+}
+
+# Dev Center Project
+output "dev_center_project" {
+  description = "Built name of single Dev Center Project"
+  value       = local.dev_center_project
+}
+
+output "dev_center_projects" {
+  description = "Built name of multiple Dev Center Projects with unique particle"
+  value       = local.dev_center_projects
+}
+
+# Managed DevOps Pool
+output "managed_devops_pool" {
+  description = "Built name of single Managed DevOps pool"
+  value       = local.managed_devops_pool
+}
+
+output "managed_devops_pools" {
+  description = "Built name of multiple Managed DevOps Pools with unique particle"
+  value       = local.managed_devops_pools
+}

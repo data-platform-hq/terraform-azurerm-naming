@@ -174,3 +174,21 @@ variable "application_security_groups" {
   description = "Set of unique strings to create Application Security Groups full names"
   default     = []
 }
+
+variable "dev_centers" {
+  type        = set(string)
+  description = "Set of unique strings to create Dev Center full names"
+  default     = []
+}
+
+variable "dev_center_projects" {
+  type        = set(string)
+  description = "Set of unique strings to create Dev Center Project full names"
+  default     = []
+}
+
+variable "managed_devops_pools" {
+  type        = set(string)
+  description = "Set of unique strings to create Managed DevOps Pool full names"
+  default     = []
+}
