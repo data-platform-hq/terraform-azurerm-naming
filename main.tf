@@ -15,7 +15,7 @@ locals {
   network_security_group  = substr(join("-", compact(["nsg", var.project, var.environment, var.location, var.instance_number])), 0, 80)
   network_security_groups = { for item in var.network_security_groups : item => substr(join("-", compact(["nsg", var.project, item, var.environment, var.location, var.instance_number])), 0, 80) }
 
-  # Application Security Groups 
+  # Application Security Groups
   application_security_group  = substr(join("-", compact(["asg", var.project, var.environment, var.location, var.instance_number])), 0, 80)
   application_security_groups = { for item in var.application_security_groups : item => substr(join("-", compact(["asg", var.project, item, var.environment, var.location, var.instance_number])), 0, 80) }
 
@@ -102,6 +102,19 @@ locals {
   # User Assigned Identity
   user_assigned_identity   = substr(join("-", compact(["id", var.project, var.environment, var.location, var.instance_number])), 0, 63)
   user_assigned_identities = { for item in var.user_assigned_identities : item => substr(join("-", compact(["id", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
+
+  # Dev Center
+  dev_center = substr(join("-", compact(["dc", var.project, var.environment,
+  var.location, var.instance_number])), 0, 26)
+  dev_centers = { for item in var.dev_centers : item => substr(join("-", compact(["dc", var.project, item, var.environment, var.location, var.instance_number])), 0, 26) }
+
+  # Dev Center Project
+  dev_center_project  = substr(join("-", compact(["dcp", var.project, var.environment, var.location, var.instance_number])), 0, 63)
+  dev_center_projects = { for item in var.dev_center_projects : item => substr(join("-", compact(["dcp", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
+
+  # Managed DevOps Pool
+  managed_devops_pool  = substr(join("-", compact(["mdp", var.project, var.environment, var.location, var.instance_number])), 0, 63)
+  managed_devops_pools = { for item in var.managed_devops_pools : item => substr(join("-", compact(["mdp", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
 }
 
 locals {
