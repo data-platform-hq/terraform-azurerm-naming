@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.1.0...v1.2.0) (2024-12-05)
+
+
+### Features
+
+* add managed devops pool and dev center ([208d6b6](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/208d6b6a5b76c6ba935e767c09f147ebbf2e2b41))
+
 # [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.0.6...v1.1.0) (2024-09-10)
 
 
