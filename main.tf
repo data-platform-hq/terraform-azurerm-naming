@@ -115,6 +115,10 @@ locals {
   # Managed DevOps Pool
   managed_devops_pool  = substr(join("-", compact(["mdp", var.project, var.environment, var.location, var.instance_number])), 0, 63)
   managed_devops_pools = { for item in var.managed_devops_pools : item => substr(join("-", compact(["mdp", var.project, item, var.environment, var.location, var.instance_number])), 0, 63) }
+
+  # Synapse Analytics Workspaces
+  synapse_analytics_workspace  = substr(join("-", compact(["synw", var.project, var.environment, var.location, var.instance_number])), 0, 50)
+  synapse_analytics_workspaces = { for item in var.synapse_analytics_workspaces : item => substr(join("-", compact(["synw", var.project, item, var.environment, var.location, var.instance_number])), 0, 50) }
 }
 
 locals {

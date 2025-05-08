@@ -316,3 +316,14 @@ output "managed_devops_pools" {
   description = "Built name of multiple Managed DevOps Pools with unique particle"
   value       = local.managed_devops_pools
 }
+
+# Synapse Analytics Workspaces
+output "synapse_analytics_workspace" {
+  description = "Built name of single Synapse Analytics Workspace"
+  value       = local.synapse_analytics_workspace
+}
+
+output "synapse_analytics_workspaces" {
+  description = "Built name of multiple Synapse Analytics Workspaces with unique particle"
+  value       = local.synapse_analytics_workspaces
+}

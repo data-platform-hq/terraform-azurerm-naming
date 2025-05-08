@@ -192,3 +192,9 @@ variable "managed_devops_pools" {
   description = "Set of unique strings to create Managed DevOps Pool full names"
   default     = []
 }
+
+variable "synapse_analytics_workspaces" {
+  type        = set(string)
+  description = "Set of unique strings to create Synapse Analytics Workspaces full names"
+  default     = []
+}
