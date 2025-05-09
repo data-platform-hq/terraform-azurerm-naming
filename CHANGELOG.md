@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.2.0...v1.3.0) (2025-05-09)
+
+
+### Features
+
+* added synapse analytics ([0e39c4f](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/0e39c4f7ea85500e58f6b08f1f20cd6666c8cf48))
+
 # [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.1.0...v1.2.0) (2024-12-05)
 
 
