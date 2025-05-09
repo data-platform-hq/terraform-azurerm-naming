@@ -58,6 +58,7 @@ No resources.
 | <a name="input_route_tables"></a> [route\_tables](#input\_route\_tables) | Set of unique strings to create Route Tables full names | `set(string)` | `[]` | no |
 | <a name="input_storage_accounts"></a> [storage\_accounts](#input\_storage\_accounts) | Set of unique strings to create Storage Accounts full names | `set(string)` | `[]` | no |
 | <a name="input_subnets"></a> [subnets](#input\_subnets) | Set of unique strings to create Subnets full names | `set(string)` | `[]` | no |
+| <a name="input_synapse_analytics_workspaces"></a> [synapse\_analytics\_workspaces](#input\_synapse\_analytics\_workspaces) | Set of unique strings to create Synapse Analytics Workspaces full names | `set(string)` | `[]` | no |
 | <a name="input_user_assigned_identities"></a> [user\_assigned\_identities](#input\_user\_assigned\_identities) | Set of unique strings to create User Assigned Identities full names | `set(string)` | `[]` | no |
 | <a name="input_virtual_networks"></a> [virtual\_networks](#input\_virtual\_networks) | Set of unique strings to create Virtual Network full names | `set(string)` | `[]` | no |
 | <a name="input_workbooks"></a> [workbooks](#input\_workbooks) | Set of unique strings to create Workbooks full names | `set(string)` | `[]` | no |
@@ -118,6 +119,8 @@ No resources.
 | <a name="output_storage_accounts"></a> [storage\_accounts](#output\_storage\_accounts) | Built name of multiple Storage Accounts with unique particle |
 | <a name="output_subnet"></a> [subnet](#output\_subnet) | Built name of single Subnet |
 | <a name="output_subnets"></a> [subnets](#output\_subnets) | Built name of multiple Subnets with unique particle |
+| <a name="output_synapse_analytics_workspace"></a> [synapse\_analytics\_workspace](#output\_synapse\_analytics\_workspace) | Built name of single Synapse Analytics Workspace |
+| <a name="output_synapse_analytics_workspaces"></a> [synapse\_analytics\_workspaces](#output\_synapse\_analytics\_workspaces) | Built name of multiple Synapse Analytics Workspaces with unique particle |
 | <a name="output_user_assigned_identities"></a> [user\_assigned\_identities](#output\_user\_assigned\_identities) | Built name of multiple User Assigned Identities with unique particle |
 | <a name="output_user_assigned_identity"></a> [user\_assigned\_identity](#output\_user\_assigned\_identity) | Built name of single User Assigned Identity |
 | <a name="output_virtual_network"></a> [virtual\_network](#output\_virtual\_network) | Built name of single Virtual Network |
