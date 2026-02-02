@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.3.0...v1.4.0) (2026-02-02)
+
+
+### Features
+
+* upgrade provider to AzureRM v4.0 ([0c30f7d](https://github.com/data-platform-hq/terraform-azurerm-naming/commit/0c30f7d4a07139ef01156dc58e9b2ef0b924e233))
+
 # [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-naming/compare/v1.2.0...v1.3.0) (2025-05-09)
 
 
